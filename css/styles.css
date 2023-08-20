@@ -7734,7 +7734,7 @@ fieldset:disabled .btn {
 }
 
 .link-dark {
-  color: #212529 !important;
+  color: #212529;
 }
 
 .link-dark:hover,
@@ -13270,4 +13270,183 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+footer{
+  width: 100%;
+  background: linear-gradient(to right,#06350f, #1f7d32);
+  color: #fff;
+  padding: 50px 0 30px 50px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col a{
+  text-decoration: none;
+  color:white;
+}
+.col:nth-child(2), .col:nth-child(3){
+  flex-basis: 15%;
+}
+.footer_logo{
+  width: 80px;
+  position: relative;
+  top: -23px;
+  left: -20px;
+}
+.footer_about{
+  position: relative;
+  top: -23px;
+}
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer_email{
+  width: fit-content;
+  border-bottom: 1px solid #f66335;
+  margin: 20px 0;
+}
+.footer_email a{
+  text-decoration: none;
+  color:white
+}
+.col ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.col ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon-size{
+  font-size: 1.5rem;
+}
+.col form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f66335;
+  margin-bottom: 50px;
+}
+.col form .icon{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.col form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+.col form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.col form button .icon_right{
+  font-size: 16px;
+  color: #ccc;
+}
+.col .social_icons .social_icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  background: #f66335;
+  margin-right: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+footer .copyright{
+  text-align: center;
+}
+.bottom_line{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  overflow: hidden;
+}
+.bottom_line span{
+  width: 15px;
+  height: 100%;
+  /* background: #f66335; */
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  /* left: 10px; */
+  /* animation: moveline 2s linear infinite; */
+}
+@keyframes moveline{
+  0%{
+      left:-20px;
+  }
+  100%{
+      left:100%;
+  }
+}
+
+.social-icons .fa-brands {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #318D44;
+background-color: #fff;
+margin-right: 15px;
+cursor: pointer;
+}
+.fa-twitter:hover{
+background-color: #1da1f2;
+color: #fff;
+}
+.fa-linkedin:hover{
+background-color: #0e76a8;
+color: #fff;
+}
+.fa-facebook:hover{
+background-color: #4267b2;
+color: #fff;
+}
+.fa-instagram:hover{
+background: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+color: #fff;
+}
+
+
+.footer-font{
+
+  font-size: 0.8rem;
 }
