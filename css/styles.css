@@ -12714,7 +12714,7 @@ p {
 
 #mainNav .navbar-brand img {
   height: 3rem;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -12744,7 +12744,7 @@ p {
   }
 
   #mainNav .navbar-brand img {
-    height: 6rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
 
